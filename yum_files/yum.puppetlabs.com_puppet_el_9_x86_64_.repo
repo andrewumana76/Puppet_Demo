@@ -1,0 +1,5 @@
+[yum.puppetlabs.com_puppet_el_9_x86_64_]
+name=created by dnf config-manager from https://yum.puppetlabs.com/puppet/el/9/x86_64/
+baseurl=https://yum.puppetlabs.com/puppet/el/9/x86_64/
+enabled=1
+gpgcheck=0

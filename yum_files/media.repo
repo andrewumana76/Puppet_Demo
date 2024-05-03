@@ -1,0 +1,17 @@
+[InstallMedia-BaseOS]
+name=Red Hat Enterprise Linux 9.3.0 BaseOS
+mediaid=None
+metadata_expire=-1
+gpgcheck=0
+cost=500
+enabled=yes
+baseurl=file:///media/cdrom/BaseOS
+
+[InstallMedia-AppStream]
+name=Red Hat Enterprise Linux 9.3.0 AppStream
+mediaid=None
+metadata_expire=-1
+gpgcheck=0
+cost=500
+enabled=yes
+baseurl=file:///media/cdrom/AppStream
