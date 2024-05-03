@@ -10,12 +10,8 @@
 
     ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/media.repo.png)
 
-* puppet-release.repo:  
-
-    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/puppet-release.repo.png)
-  
 * yum.puppetlabs*.repo:  
   
-    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/yum.puppetlabs.repo)
+    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/yum.puppetlabs.repo.png)
 
 5. yum install puppet-release
