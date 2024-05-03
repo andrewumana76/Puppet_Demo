@@ -1,4 +1,4 @@
-# Installing Puppet on RHEL 9 Environment#
+# Installing Puppet on RHEL 9 Environment #
 
 1. Login to the RHEL9 masternode
 2. Add the Puppet Labs repo
