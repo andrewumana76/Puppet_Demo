@@ -1,7 +1,7 @@
 # Installing Puppet on RHEL 9 Environment #
 
 1. Login to the RHEL9 masternode
-    * Hostname is already set to masternode.ansibletest.demo
+    * Hostname is already set to **masternode.ansibletest.demo**
     * DNS is already configured to reach/resolve multiple nodes
 
 2. Add the Puppet Labs repo
