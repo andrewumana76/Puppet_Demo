@@ -36,5 +36,10 @@
     * add *export PATH=$PATH:/opt/puppetlabs/bin* to the end of the file. Save and exit
 
         ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/etc_profile.png)
-
-    * **source /etc/profile**
+    * **source /etc/profile**  
+12. Test the puppet server is running properly
+   * **puppet agent --test --ca_server=masternode.ansibletest.demo**  
+      * puppet command will not work if not in the PATH  
+      * masternode.ansibletest.demo is my computer's hostname  
+    
+14.  
