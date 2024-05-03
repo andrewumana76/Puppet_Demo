@@ -1,5 +1,7 @@
 # Installing Puppet on RHEL 9 Environment #
 
+## Installing on Master Node ##
+
 1. Login to the RHEL9 masternode
     * Hostname is already set to **masternode.ansibletest.demo**
     * DNS is already configured to reach/resolve multiple nodes
@@ -42,4 +44,5 @@
       * puppet command will not work if not in the PATH  
       * masternode.ansibletest.demo is my computer's hostname  
     
-14.  
+
+## Installing on Slave Node ##
