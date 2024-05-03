@@ -14,4 +14,9 @@
   
     ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/yum.puppetlabs.repo.png)
 
-5. yum install puppet-release
+5. **yum install puppet-release**
+6. **yum install puppetserver**
+7. **systemctl enable puppetserver && systemctl start puppetserver**
+* Enables and turns on puppet server  
+9. **systemctl enable puppet && systemctl start puppet**
+* Enables and turns on puppet agent  
