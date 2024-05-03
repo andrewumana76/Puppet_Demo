@@ -24,8 +24,14 @@
 * Adds puppet service to the firewall
 10. Add the puppet bin directory to path (if not there)
 * env | grep PATH
+
+    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/env_path.png)
+
 * If /opt/puppetlabs/bin is in the PATH, skip the next step
 11. Need to do it in /etc/profile. /etc/profile is a system wide configuration file that is used for setting environment variables. If we only export in the current terminal, we will lose the environment variable after we close the session
 * vi /etc/profile
 * add *export PATH=$PATH:/opt/puppetlabs/bin* to the end of the file. Save and exit
+
+    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/etc_profile.png)
+
 * source /etc/profile
