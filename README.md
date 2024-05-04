@@ -77,9 +77,19 @@
     ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/puppet_agent_t.png)
 
 8. Log onto the masternode
-9. puppetserver ca list
+9. **puppetserver ca list**
    * You should see the slave node's certificate request. Note down the name. In my example, the name is **ansiblenode.ansibletest.demo**
 
    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/ca_list.png)
 
-10. 
+10. **puppetserver ca sign --certname ansiblenode.ansibletest.demo**
+   * This will sign the certificate requested by my slave node
+
+   ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/sign_cert.png)
+
+11. Log back onto the slavenode
+12. **puppet agent -t**
+    * The slave node is now connected to the masternode
+
+   ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/puppet_agent_after_cert.png)
+   
