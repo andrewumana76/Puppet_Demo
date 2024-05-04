@@ -76,5 +76,10 @@
 
     ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/puppet_agent_t.png)
 
-8. 
+8. Log onto the masternode
+9. puppetserver ca list
+   * You should see the slave node's certificate request. Note down the name. In my example, the name is **ansiblenode.ansibletest.demo**
 
+   ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/ca_list.png)
+
+10. 
