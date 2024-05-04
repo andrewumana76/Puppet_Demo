@@ -71,4 +71,10 @@
       ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/slave_puppet_conf.png)
 
 6. **systemctl enable puppet && systemctl start puppet**
-7. 
+7. **puppet agent -t**
+   * This will create a connection between the agent and the server to generate a new certificate request
+
+    ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/puppet_agent_t.png)
+
+8. 
+
