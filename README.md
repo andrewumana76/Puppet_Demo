@@ -70,4 +70,5 @@
 
       ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/slave_puppet_conf.png)
 
-6. 
+6. **systemctl enable puppet && systemctl start puppet**
+7. 
