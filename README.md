@@ -66,3 +66,8 @@
 
 4. **yum install puppet-agent**
 5. On the slave node, edit the /etc/puppetlabs/puppet/puppet.conf
+   * puppet.conf:
+
+      ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/slave_puppet_conf.png)
+
+6. 
