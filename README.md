@@ -64,4 +64,5 @@
   
         ![alt text](https://github.com/andrewumana76/Puppet_Demo/blob/main/pictures/yum.puppetlabs.repo.png)
 
-4. **yum install puppet-release
+4. **yum install puppet-agent**
+5. On the slave node, edit the /etc/puppetlabs/puppet/puppet.conf
